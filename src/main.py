@@ -2,16 +2,7 @@ from fastapi import FastAPI
 from typing import List
 import spacy
 
-# from .models import Payload, Entities
-
-
-class Entities(BaseModel):
-    post_url: str
-    content: str
-
-
-class Payload(BaseModel):
-    data: List[Entities]
+from .models import Payload, Content
 
 
 app = FastAPI()
