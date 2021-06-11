@@ -1,6 +1,5 @@
-# example-nlp-project
-This is an example NER service using Spacy and was built to show Data Scientists & Analysts a quick way to turn their models into deployable services.
+# Example NLP Service with SpaCy
 
-[The YouTube video for the run through can be found here.](https://youtu.be/Maj9v-Ev7-4)
+This is an example NER service using SpaCy and was built to show Data Scientists & Analysts a quick way to turn their models into deployable services. 
 
-[Swagger doc for the project can be seen & tested here.](http://34.86.252.161/docs)
+As a way to get better at quickly deploying useful ml / data science apps, I worked through this [reference video walkthrough](https://youtu.be/Maj9v-Ev7-4) to get going quickly for future projects.
