@@ -19,7 +19,7 @@ On the Swagger UI, you can Try It Out here:
 
 Once you've executed the request, you can see the output entities in the Response body:
 
-![response-body](https://github.com/JayThibs/spacy-example-deployed-service/imgs/response-body.png]
+![response-body](https://github.com/JayThibs/spacy-example-deployed-service/imgs/response-body.png)
 
 ### If you only want to test FastAPI's Swagger UI
 
