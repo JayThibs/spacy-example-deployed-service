@@ -15,11 +15,11 @@ Then, head to `http://localhost/docs` to see the docs and test the app by clicki
 
 On the Swagger UI, you can Try It Out here:
 
-![try-it-out-content](https://github.com/JayThibs/spacy-example-deployed-service/imgs/try-it-out-content.png)
+![try-it-out-content](https://github.com/JayThibs/spacy-example-deployed-service/blob/master/imgs/try-it-out-content.png)
 
 Once you've executed the request, you can see the output entities in the Response body:
 
-![response-body](https://github.com/JayThibs/spacy-example-deployed-service/imgs/response-body.png)
+![response-body](https://github.com/JayThibs/spacy-example-deployed-service/blob/master/imgs/response-body.png)
 
 ### If you only want to test FastAPI's Swagger UI
 
