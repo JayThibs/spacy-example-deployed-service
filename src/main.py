@@ -16,7 +16,12 @@ async def get_ner(payload: Payload):
     tokenize_content: List[spacy.tokens.doc.Doc] = [
         nlp(content.content) for content in payload.data
     ]
+    document_entities = []
     for doc in tokenize_content:
-        x = [{"text": ent.text, "entity_type": ent.label_} for ent in doc.ents]
-    print(x)
-    return ""
+        document_entities.append(
+            [{"text": ent.text, "entity_type": ent.label_} for ent in doc.ents]
+        )
+    return [
+        Entities(post_url=post.post_url, entities=ents)
+        for post, ents in zip(payload.data, document_entities)
+    ]

@@ -9,3 +9,13 @@ class Content(BaseModel):
 
 class Payload(BaseModel):
     data: List[Content]  # received data needs to be list of Content
+
+
+class SingleEntity(BaseModel):
+    text: str
+    entity_type: str
+
+
+class Entities(BaseModel):
+    post_url: str
+    entities: List[SingleEntity]
