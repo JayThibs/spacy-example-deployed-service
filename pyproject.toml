@@ -12,7 +12,16 @@ fastapi = "^0.65.1"
 uvicorn = "^0.13.4"
 
 [tool.poetry.dev-dependencies]
+black = "^21.7b0"
+pycodestyle = "^2.7.0"
+pydocstyle = "^6.1.1"
+mypy = "^0.910"
+bandit = "^1.7.0"
+pylint = "^2.9.5"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.'MESSAGES CONTROL']
+extension-pkg-whitelist = "pydantic, spacy"
