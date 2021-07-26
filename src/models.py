@@ -18,7 +18,12 @@ class Content(BaseModel):  # pylint: disable=too-few-public-methods
 
 
 class Payload(BaseModel):  # pylint: disable=too-few-public-methods:
-    """This class makes sure the content has been placed in a list."""
+    """This class makes sure the content has been placed in a list. This\
+    allows us to do batch processing (multiple texts processed at the same\
+    time).
+
+    output: List[Content] # list of dictionaries
+    """
 
     data: List[Content]  # received data needs to be list of Content
 
