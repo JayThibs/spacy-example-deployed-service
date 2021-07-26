@@ -2,8 +2,7 @@ from fastapi import FastAPI
 from typing import List
 import spacy
 
-from models import Payload, Content
-
+from models import Payload, Entities
 
 app = FastAPI()
 
